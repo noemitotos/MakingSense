@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'shelbymedium';
+    src: url('shelby-webfont.woff2') format('woff2'),
+         url('shelby-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#makingsense-normal, #makingsense-changed {
+	padding: 1.5rem 0 1.5rem 1.1rem;
+}
+
+.Making, .Sense, .Making.Sense{
+    font-weight: 400;
+    font-family: 'shelbymedium', Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #009fe3;
+}
+
