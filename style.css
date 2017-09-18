@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'shelbymedium';
-    src: url('shelby-webfont.woff2') format('woff2'),
-         url('shelby-webfont.woff') format('woff');
+    src: url('shelby.woff2') format('woff2'),
+         url('shelby.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
