@@ -1,3 +1,7 @@
+//prints the numbers from 1 to 100. 
+//for multiples of 3 print the word “Making” 
+//for multiples of 5 print the word “Sense”. 
+//for numbers which are multiples of both 3 and 5 print “Making Sense”.
 var ul = document.getElementById("makingsense-normal");
 for (var i = 1; i <= 100; i++) {
   if (i % 5 === 0 && i % 3 === 0)
@@ -14,6 +18,10 @@ for (var i = 1; i <= 100; i++) {
   ul.appendChild(li);
 }
 
+//prints the numbers from 1 to 100. 
+//for multiples of 3 print any other word instead of “Making” 
+//for multiples of 5 print any other word instead of “Sense” 
+//for multiples of 3 and 5 print both words 
 var ul = document.getElementById("makingsense-changed");
 for (var i = 1; i <= 100; i++, msg = "") {
 var words = ["Making","Sense"];
